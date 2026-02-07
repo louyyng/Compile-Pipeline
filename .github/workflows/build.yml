@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         configuration: [Release]
-        platform: [x64, x86] # Matrix build: Compiles for both architectures
+        platform: [x64, x86] # Compiles for both architectures
 
     steps:
     - name: Checkout Code
