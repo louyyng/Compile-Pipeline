@@ -19,3 +19,4 @@ Release/
 *.cachefile
 *.swp
 *.ilk
+.DS_Store
