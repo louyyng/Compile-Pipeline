@@ -30,7 +30,7 @@ jobs:
         python-version: '3.x'
 
     - name: Run Polymorphic Engine
-      run: python scripts/polymorph.py
+      run: python scripts/polymorph.py   
 
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1.1
